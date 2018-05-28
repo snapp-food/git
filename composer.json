@@ -30,5 +30,9 @@
     "branch-alias": {
       "dev-master": "0.1.x-dev"
     }
-  }
+  },
+  "bin": [
+    "bin/git-phpcs",
+    "bin/git-phpcs-precommit"
+  ]
 }
